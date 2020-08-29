@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" name="google" content="notranslate" />
+<head>
+  <title>Folko macht Sachen - Vanilla JS</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+
+<body>
+
+    <div class="head-wrapper">
+        <div class="logo-container">
+            <div class="logo"><img src="./img/logo.svg" alt=""></div>
+            <div class="logo-text">FOLKO MACHT SACHEN</div>
+        </div>
+        <div class="nav-item"><a href="about.html">About</a></div>
+        
+    </div>
+
+  <div class="page">  
+
+    
+      
+
+    <div class="tools-container"> 
+
+      <div componentType="toolchooser" id="toolchooser"></div> 
+
+      <div componentType="root" id="groupheadline">
+        <div componentType="alignment" id="headline_al" value="left"></div>  -->
+        <div componentType="fontsize" id="headline_fs" value="24" type="number" min="8" max="144"></div>
+        <div componentType="lineheight" id="headline_lh" value="28" type="number" min="8" max="200"></div>
+        <div componentType="spacetop" id="headline_st" value="18" type="number" min="0" max="200"></div>
+        <div componentType="spacebottom" id="headline_sb" value="20" type="number" min="0" max="200"></div>
+        <div componentType="fontweight" id="headline_fw" value="700"></div>
+        <div componentType="currentcolor" id="headline_co" value="rgb(106,169,35)"></div>
+        <div componentType="uppercase" id="headline_up" value=false></div>
+      </div>
+
+      <div componentType="root" id="grouptext">
+        <div componentType="alignment" id="text_al" value="left"></div> 
+        <div componentType="fontsize" id="text_fs" value="15" type="number" min="8" max="36"></div>
+        <div componentType="lineheight" id="text_lh" value="22" type="number" min="8" max="72"></div>
+        <div componentType="spacebottom" id="text_sb" value="0" type="number" min="0" max="200"></div>
+        <div componentType="fontweight" id="text_fw" value="400"></div>
+        <div componentType="currentcolor" id="text_co" value="rgb(0,0,0)"></div>
+      </div>
+
+      <div componentType="root" id="groupcard">
+        <div componentType="cardspace" id="card_sp" value="20" min="0" max="50"></div>
+        <div componentType="shadow" id="card_sh" value=true></div> 
+        <div componentType="currentcolor" id="canvas_co" name="Canvas Color" value="rgb(233,233,233)"></div>
+      </div>
+
+    </div>
+
+    <div id="canvas" class="canvas"> 
+
+        <div id="demo_card" class="card card-shadow"> 
+          <div >
+              <img src="./img/gorilla_1024.jpg" class="card-image" alt="">
+          </div> 
+          <div id="card_text_container" class="card-text-container padding">
+              <div id="demo_headline" class="card-headline"> 
+              I don't like mondays
+              </div>
+              <div id ="demo_text" class="card-text"> 
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+              </div>
+          </div> 
+        </div> 
+
+    </div> 
+
+   
+
+  </div>
+
+  <div class="footer">
+    <div class="footer-text">This is a just a test website.</div>
+</div>
+</body>
+
+
+<script type="module">
+  import { App } from './src/index.js';
+ App.start();
+</script>
+
+<!-- <script src='./src/index.js'>
+    App.start();
+</script> -->
+
+
+
+
+
+</html>
