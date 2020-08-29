@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" name="google" content="notranslate" />
+<head>
+  <title>About</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+
+<body>
+
+    <div class="head-wrapper">
+        <div class="logo-container">
+            <div class="logo"><a href="index.html"><img src="./img/logo.svg" alt=""></a></div>
+            <div class="logo-text"><a href="index.html">FOLKO MACHT SACHEN</div></a>
+        </div>
+        <div class="nav-item">About</div>
+        
+    </div>
+
+  <div class="page-about">  
+      
+
+    <div class="tools-container"> 
+
+      <div componentType="toolchooser" id="toolchooser"></div> 
+    </div>
+      
+    <div id="canvas" class="canvas-about"> 
+
+        <div class="about-container">
+
+        <h1>About</h1>
+        <h3>Vanilla Javascript</h3>
+        <p>Auf dieser kleinen Test-Website probiere ich aus, wie weit ich mit meinen Javascript-Fähigkeiten komme.
+          Genauer gesagt: Hier verwende ich keine Frameworks oder Bibliotheken. Alles ist Vanilla Javascript.
+        </p>
+        <h3>Eigene Komponenten</h3>
+        <p>Der Zweck der Übung besteht darin, eigene, wiederverwendbare Komponenten zu bauen. 
+          Deren Nutzung ähnelt den bekannten Verfahren: man kann auf der Zielseite einfach ein 
+          paar Komponenten deklarieren (hier: simple Divs mit Tags und IDs). Der Rest erfolgt
+          automatisch: Die Komponenten liefern die gewünschte Funktionalität und rendern die Ausgabe.
+        </p>
+        <h3>Klassen-basiert, ES6 Module</h3>
+        <p>Das Ganze basiert auf Javascript-Klassen, auch wenn die funktionale Programmierung gerade ein heisses Thema ist. 
+        Bin noch nicht ganz davon überzeugt, dass eine funktionale Programmierung überlegen ist. Also die allgemeine Entwicklung mal aufmerksam beobachten...
+        </p>
+        <h3>CSS-Klassen "on-the-fly"</h3>
+        <p>Nebenbei wollte ich das mal ausprobieren: für die Komponenten gibt es eine Sammlung von sehr kleinen Style-Fragmenten als Strings. Aus dieser Sammlung 
+            werden dann vollständige CSS-Klassen kombiniert und dem Dokument hinzugefügt. All das geschieht zur Laufzeit.
+            Zwischenergebnis: das ist zwar irgendwie cool, aber man kann sich da auch wieder verheddern.
+        </p>
+        <h3>State Management</h3>
+        <p>Ist ganz simpel: die Komponenten basieren auf einem Basis-Objekt, welches wiederum eine Referenz auf ein 
+          Store-Objekt hat. Will heissen: die Komponenten können den Store direkt updaten oder auf Änderungen reagieren.
+          Bei dieser einfachen Anwendung müssen die Daten nicht "immutable" sein. Auch nett: es kann durchaus mehrere Stores
+          geben.
+        </p>
+        <h3>Responsive</h3>
+        <p>Hüstel. Später.</p>
+        <p></p>
+        Bei Fragen/Interesse: folko.lagemann@gmail.de
+        <p></p>
+        <p>Beste Grüße, Folko</p>
+        
+
+      </div> 
+
+    </div> 
+
+  </div>
+
+
+  <div class="footer">
+    <div class="footer-text">This is a just a test website.</div>
+</div>
+</body>
+
+
+
+</html>
